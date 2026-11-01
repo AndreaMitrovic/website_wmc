@@ -2,9 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
 </head>
 <body>
+        <h1>Pokemon</h1>
+        <div class="image-container">
+        <img src="https://i.pinimg.com/236x/dc/ee/c9/dceec9c17138eeca9131901e5487dbb4.jpg" alt="Pokemon">
+        </div>
 
+        <main>
+            <h2>Text and Fonts</h2>
+            <p>This first paragraph after a level two heading is written in italics – just like the first paragraph after every other level two heading.</p>
+            <p>The whole page uses a font without serifs, darkslategray as text color and ivory as background color. The line height is 1.5.</p>
+            <p>Headings of level one and two are navy. Level two headings are centered and written in uppercase letters – but not in the HTML source, changing the look of text is the job of CSS!</p>
+            <p>Some words are <strong>strongly important</strong>: they are bold – as usual – and have a yellow background. Others are only <em>emphasized</em> and keep the default style of the browser.</p>
+
+            <h3>Links</h3>
+            <p>Links like <a href="https://pokemon.com">this one to the MDN CSS reference</a> are darkgreen and not underlined – even after they have been visited. When the mouse pointer hovers over a link, it is underlined and gets a lightgreen background.</p>
+
+            <h2>Lists</h2>
+            <p>All three kinds of lists appear on this page. Every bullet point and every number is crimson.</p>
+
+            <h3>Before You Start</h3>
+            <ul>
+                <li>Watched units 1 to 3</li>
+                <li>Installed WebStorm and two browsers</li>
+                <li>Know how to validate HTML</li>
+            </ul>
+
+            <h3>Shopping List</h3>
+            <p>All other unordered lists use squares as bullet points.</p>
+            <ul>
+                <li>Poké Balls</li>
+                <li>Potions</li>
+                <li>Antidotes</li>
+                <li>Rare Candy (a lot of it)</li>
+            </ul>
+
+            <h3>Snack Countdown</h3>
+            <p>Ordered lists use uppercase Roman numbers. This one counts down from three to one – CSS cannot do that, but an HTML attribute can.</p>
+            <ol type="I" reversed>
+                <li>Charizard</li>
+                <li>Charmeleon</li>
+                <li>Charmander</li>
+            </ol>
+
+            <h3>Glossary</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Structure and content of a web page</dd>
+                <dt>CSS</dt>
+                <dd>Presentation and design of a web page</dd>
+                <dt>Selector</dt>
+                <dd>Decides which elements a CSS rule applies to</dd>
+            </dl>
+
+            <h2>Tables</h2>
+            <p>Tables are for tabular data – like the prices of our school buffet.</p>
+
+            <table>
+                <caption>School Buffet</caption>
+                <thead>
+                <tr>
+                    <th>Snack</th>
+                    <th>Category</th>
+                    <th>Price (€)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Pikachu</td>
+                    <td>Electric</td>
+                    <td>1.20</td>
+                </tr>
+                <tr>
+                    <td>Bulbasaur</td>
+                    <td>Grass</td>
+                    <td>2.40</td>
+                </tr>
+                <tr>
+                    <td>Charmander</td>
+                    <td>Fire</td>
+                    <td>0.80</td>
+                </tr>
+                <tr>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td>2.90</td>
+                </tr>
+                <tr>
+                    <td>Eevee</td>
+                    <td>Normal</td>
+                    <td>1.70</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="2">Average price</td>
+                    <td>1.80</td>
+                </tr>
+                </tfoot>
+            </table>
+        </main>
+
+        <footer>
+            <p>Made in WMC, 2nd grade.</p>
+        </footer>
 </body>
 </html>
