@@ -20,12 +20,13 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2 {
     text-align: center;
+    text-transform: uppercase;
     color: navy;
 }
-h2 {
-    text-transform: uppercase;
+h3 {
+    text-align: left;
 }
 h2 + p {
     font-style: italic;
